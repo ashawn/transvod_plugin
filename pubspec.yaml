@@ -1,0 +1,20 @@
+name: transvod_plugin
+description: Plugin that allow Flutter to communicate with transvod.
+authors:
+- ashawn <ashawnchang@gmail.com>
+
+homepage: https://github.com/ashawn/transvod_plugin
+version: 0.1.0
+maintainer: ashawn
+
+environment:
+  sdk: ">=2.0.0 <3.0.0"
+
+flutter:
+  plugin:
+    androidPackage: com.transvod_plugin
+    pluginClass: TransvodPlugin
+
+dependencies:
+  flutter:
+    sdk: flutter

@@ -1,0 +1,11 @@
+name: gltexture_plugin_example
+description: Demonstrates how to use the gltexture_plugin plugin.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  transvod_plugin:
+    path: ../
+
+flutter:
+  uses-material-design: true
