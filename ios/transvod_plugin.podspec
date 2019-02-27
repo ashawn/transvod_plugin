@@ -11,11 +11,11 @@ A new flutter plugin project.
   s.homepage         = 'https://github.com/ashawn/transvod_plugin'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
-  s.source           = { :path => '.' }
+  s.source           = { :git => 'https://git.yy.com/ci_team/Specs.git' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'transvod', '8.11.400-dev'
+  s.dependency 'transvod', '8.11.401-dev'
   s.dependency 'ffmpegframework/ffmpegframework', '1.0.2'
   s.dependency 'libyuv', '1194.5004.0'
   
