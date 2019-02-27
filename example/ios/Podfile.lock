@@ -1,11 +1,25 @@
 PODS:
+  - ffmpegframework/ffmpegframework (1.0.2)
   - Flutter (1.0.0)
+  - libyuv (1194.5004.0)
+  - transvod (8.11.401-dev):
+    - transvod/transvod (= 8.11.401-dev)
+  - transvod/transvod (8.11.401-dev)
   - transvod_plugin (0.0.1):
+    - ffmpegframework/ffmpegframework (= 1.0.2)
     - Flutter
+    - libyuv (= 1194.5004.0)
+    - transvod (= 8.11.401-dev)
 
 DEPENDENCIES:
   - Flutter (from `/Users/ashawn/Tools/flutterV1_0/bin/cache/artifacts/engine/ios`)
   - transvod_plugin (from `/Users/ashawn/Projects/Working/transvod_plugin/ios`)
+
+SPEC REPOS:
+  https://git.yy.com/ci_team/Specs.git:
+    - ffmpegframework
+    - libyuv
+    - transvod
 
 EXTERNAL SOURCES:
   Flutter:
@@ -14,9 +28,12 @@ EXTERNAL SOURCES:
     :path: "/Users/ashawn/Projects/Working/transvod_plugin/ios"
 
 SPEC CHECKSUMS:
-  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
-  transvod_plugin: d856f18096b2290baf5ac3304d8c0095eec1448e
+  ffmpegframework: 6e21b61033576e2348cbbbb95649d28c79f24065
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  libyuv: 023b63d0b07daf6f361927b4dd48e6c41de5f965
+  transvod: 31e121c92042fef1fa2b6c11c87589ca6a4ced5a
+  transvod_plugin: bd7e3e5ba619c71cb0715b7f19bed465141d0b36
 
-PODFILE CHECKSUM: cc70c01bca487bebd110b87397f017f3b76a89f1
+PODFILE CHECKSUM: 73c0ab22cf518be25334fc7b6b32f0af60f3414e
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.6.0
